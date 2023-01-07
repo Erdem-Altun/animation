@@ -12,7 +12,7 @@ body {
     background: radial-gradient(#113, #000);
 }
 
-.atom {
+.atomic {
     position: relative;
     display: flex;
     width: 300px;
@@ -21,7 +21,7 @@ body {
     justify-content: center;
 }
 
-.atom::before {
+.atomic::before {
     content: "";
     position: absolute;
     width: 20px;
